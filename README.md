@@ -5,38 +5,16 @@
 To design a book front cover page using HTML and CSS.
 
 ## DESIGN STEPS:
-
-### Step 1:
-Create a Django Admin project.
-
-### Step 2:
-Create an app in the Django interface.
-
-### Step 3:
-Create a folder named 'static' in the app folder.
-
-### Step 4:
-Create a new HTML file in the static folder.
-
-### Step 5:
-Write the HTML code with relevant CSS properties.
-
-### Step 6:
-Choose the appropriate style and color scheme.
-
-### Step 7:
-Insert the images in their appropriate places.
-
-### Step 8:
-Publish the website in the LocalHost.
-
-NAME : Niranjana devi S
-
-REG NO : 212221220036
-
+Step 1: Create a Django Admin project.
+Step 2: Create an app in the Django interface.
+Step 3: Create a folder named 'static' in the app folder.
+Step 4: Create a new HTML file in the static folder.
+Step 5:Write the HTML code with relevant CSS properties.
+Step 6:Choose the appropriate style and color scheme.
+Step 7:Insert the images in their appropriate places.
+Step 8:Publish the website in the LocalHost.
 ## PROGRAM:
 ~~~
-
 <html>
 <head>
   <title>Book Cover</title>
@@ -46,8 +24,7 @@ REG NO : 212221220036
       padding: 0;
       background-color:rgb(255, 255, 255);
     }
-
-    .book-cover {
+   .book-cover {
       width: 500px;
       height: 700px;
       background-color:rgb(74, 49, 203);
@@ -55,7 +32,6 @@ REG NO : 212221220036
       margin: 50px auto;
       position: relative;
     }
-    
     .book-cover .insight {
       position: absolute;
       top: 20px;
@@ -87,8 +63,7 @@ REG NO : 212221220036
       font-weight: bold;
       color:  rgba(220, 20, 20, 0.723);
     }
-
-    .book-cover .subtitle1 {
+   .book-cover .subtitle1 {
       position: absolute;
       top: 470px;
       left: 20px;
@@ -126,16 +101,13 @@ REG NO : 212221220036
       left: 20px;
       width: 115px;
     }
-
-
-    .book-cover .author {
+  .book-cover .author {
       position: absolute;
       bottom: 25px;
       left: 20px;
       font-size: 18px;
       color: whitesmoke;
     }
-
     .book-cover .number {
       position: absolute;
       bottom: 5px;
@@ -160,9 +132,7 @@ REG NO : 212221220036
       height: 8px;
       background-size:fit;
     }
-
-
-    .book-cover .image {
+   .book-cover .image {
       width: 100%;
       height: 100%;
       object-fit: cover;
@@ -172,7 +142,6 @@ REG NO : 212221220036
     }
   </style>
 </head>
-
 <body>
   <div class="book-cover">
     <img src="background.jpg" alt="Book Cover Image" class="image">
@@ -191,14 +160,8 @@ REG NO : 212221220036
 </div>
 </body>
 </html>
-
 ~~~
-
-
 ## OUTPUT:
-
 ![image](https://github.com/niranjanadevi-s/Cover/assets/141748873/4977c373-ac92-43a8-bdac-a538750466ae)
-
-
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
