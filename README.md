@@ -62,6 +62,8 @@ Step 8:Publish the website in the LocalHost.
       font-weight: bold;
       color:  rgb(18, 219, 68);
     }
+~~~
+~~~
     .book-cover .title2 {
       position: absolute;
       top: 130px;
